@@ -1,15 +1,9 @@
 {
-  "name": "rush-multiplayer-web",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Free-to-start browser multiplayer parkour race prototype",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": { "node": ">=18" },
-  "dependencies": {
-    "express": "^4.21.2",
-    "ws": "^8.18.0"
-  }
+  "name":"rush-multiplayer-3d",
+  "version":"1.0.0",
+  "private":true,
+  "description":"RUSH - colorful 3D multiplayer obstacle-race browser game",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"express":"^4.21.2","ws":"^8.18.0"}
 }
